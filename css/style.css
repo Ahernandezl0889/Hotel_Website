@@ -29,6 +29,7 @@ p{
 }
 
 /* Utilities classes */
+
 .container{
     /* will push everything to the middle */
     margin:auto;
@@ -38,6 +39,54 @@ p{
     overflow: auto;
     padding:0 20px;
 }
+
+.text-primary{
+    color:#f6c088;
+}
+
+.lead{
+    font-size:20px;
+}
+
+.bg-dark{
+    background:#333;
+    color:#FFF;   
+}
+.bg-light{
+    background:#f4f4f4;
+    color:#333;
+}
+
+.bg-primary{
+    background:#f6c088;
+    color:#333;
+}
+
+.clr{
+    clear:both;
+}
+
+.btn{
+    display:inline-block;
+    font-size:18px;
+    color:white;
+    background:#333;
+    padding: 13px 20px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background:#f6c088;
+    color:#333;
+}
+
+.btn-light{
+    background:#f4f4f4;
+    color:#333;
+}
+
+
 
 #navbar{
     /* navbar background */
@@ -76,8 +125,6 @@ p{
      display:block;
      padding: 20px;
      text-align:center;
-
-
  }
 
  #navbar ul li a:hover, 
@@ -85,4 +132,79 @@ p{
  #navbar ul li a.current  {
         background:#444;
         color:#f6c088;
+ }
+
+ /* ShowCase */
+ #showcase{
+     background-image:url("../image_resources/showcase.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 600px;
+     
+ }
+ #showcase .showcase-content{
+     color:white;
+     text-align:center;
+     /* push everything down */
+     padding-top:170px;
+ }
+
+#showcase .showcase-content h1{
+    font-size:60px;
+    line-height:1.2em;
+        
+ }
+
+ #showcase .showcase-content p{
+     padding-bottom:20px;
+     line-height: 1.7em;
+ }
+
+ /* Home Info */
+ #home-info{
+     height:400px;
+ }
+
+ #home-info .info-img{
+     float:left;
+     width: 50%;
+     background-image: url('../image_resources/photo-1.jpg');
+     background-repeat: no-repeat;
+    /* the picture take the whole space */
+     min-height: 100%;
+ }
+ #home-info .info-content{
+     float:right;
+     width: 50%;
+     min-height: 100%;
+     text-align:center;
+     padding: 50px 30px;
+     /* it's anything go outside there's not scroll bar, important*/
+     overflow: hidden;
+ }
+
+ #home-info .info-content p{
+     padding-bottom:30px;
+ }
+
+ /* Features */
+#features .box{
+    /* it will put as a line  the items */
+    float:left;
+    /* because are 3boxes, 100% is the whole row */
+    width:33.3%;
+    padding:50px;
+    text-align:center;
+ }
+
+ .box i{
+     margin-bottom:10px;
+ }
+
+ #main-footer{
+     text-align: center;
+     background:#444;
+     color:white;
+     padding:20px;
  }
