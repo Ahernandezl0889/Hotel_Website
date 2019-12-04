@@ -15,7 +15,7 @@ html,body{
 
 a{
     color:#333;
-    /* eliminate the unnderline */
+    /* eliminate the underline */
     text-decoration:none;
 }
 
@@ -78,6 +78,7 @@ p{
 
 .l-heading{
     font-size:40px;
+    line-height:1.2;
 }
 
 .btn{
@@ -177,7 +178,7 @@ p{
 
  /* Home Info */
  #home-info{
-     height:400px;
+     height:450px;
  }
 
  #home-info .info-img{
@@ -189,6 +190,7 @@ p{
      min-height: 100%;
  }
  #home-info .info-content{
+     /* The CSS float property specifies how an element should float. */
      float:right;
      width: 50%;
      min-height: 100%;
@@ -203,14 +205,15 @@ p{
  }
 
  /* Features */
+
 #features .box{
     /* it will put as a line  the items */
     float:left;
     /* because are 3boxes, 100% is the whole row */
     width:33.3%;
     padding:50px;
-    text-align:center;
- }
+    text-align:center; 
+}
 
  .box i{
      margin-bottom:10px;
@@ -240,7 +243,7 @@ p{
 
  /* Testimonials */
  #testimonials{
-     height:600px;
+     height:100%;
      background: url('../image_resources/test-bg.jpg');
      background-repeat: no-repeat;
      background-position: center;
