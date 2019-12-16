@@ -315,3 +315,9 @@ p{
      padding:20px;
  }
 
+ .is-required:after{
+     content:'*';
+     color:red;
+     padding-left:2px;
+
+ }
